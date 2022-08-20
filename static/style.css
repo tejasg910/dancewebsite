@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contactheading{
+    text-align: center;
+}
+.navbar{
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+.formsubmition{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formsubmition input{
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+}
+.imagetab{
+    width: 100vw;
+    height: 600px;
+}
+.imagetab img{
+    width: 100vw;
+    height: 600px;
+   
+}
+
+.welcome::before{
+    background: url('/static/hd-wallpaper-1056764_1920.jpg');
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.imgcontent{
+    top: 100px;
+    left: 500px;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 3px 1px 15px rgba(209, 71, 246, 1);
+}
+
+.missionimg img{
+    width: 100px;
+}
+
+.flexr{
+    display: flex;
+    align-items: center;
+}
+
+.missioncontent{
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxes{
+    margin: 10px;
+    background-color: antiquewhite;
+    border: 0.5px solid black;
+    transition: 0.5s all;
+    border-radius: 5px;
+}
+
+.boxes:hover{
+   transform: scale(1.05);
+}
+
+.boxes h3{
+    text-align: center;
+}
+.ourmission h2{
+    text-align: center;
+}
+
+.submitbtn{
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.categories{
+    display: flex;
+   justify-content: space-around;
+   margin-bottom: 20px;
+}
+.categorybox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categorybox .img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 7px;
+}
+.categorybox button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.categorybox button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(25, 206, 25);
+    border: 1px solid black;
+}
+
+.categorybox button:hover{
+    
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.categorybox button:hover a{
+    color: green;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+.center{
+    text-align: center;
+}
